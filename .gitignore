@@ -10,6 +10,7 @@
 coverage/*
 
 .bundle/
+Gemfile.lock
 log/*.log
 pkg/
 test/dummy/db/*.sqlite3
