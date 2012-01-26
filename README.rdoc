@@ -1,5 +1,7 @@
 = Aqueduct {<img src="https://secure.travis-ci.org/remomueller/aqueduct.png"/>}[http://travis-ci.org/remomueller/aqueduct] {<img src="https://gemnasium.com/remomueller/aqueduct.png" alt="Dependency Status" />}[https://gemnasium.com/remomueller/aqueduct]
 
+Data integration gem designed to increase data flow between applications.
+
 == Installation
 
 Aqueduct can be installed from rubygems.org using:
