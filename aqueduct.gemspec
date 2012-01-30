@@ -19,12 +19,12 @@ Gem::Specification.new do |s|
   s.email       = ["remosm@gmail.com"]
   s.homepage    = "https://github.com/remomueller"
   s.summary     = "Data integration gem designed to increase data flow between applications"
-  s.description = "Data integration gem designed to increase data flow between applications"
+  s.description = "Data integration gem designed to increase data flow between applications using a common interface"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["aqueduct.gemspec", "CHANGELOG.rdoc", "LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 3.2.0"
+  s.add_dependency "rails", "~> 3.2.1"
 
   s.add_development_dependency "sqlite3"
 end
