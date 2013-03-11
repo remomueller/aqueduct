@@ -1,6 +1,6 @@
 # Compiling the Gem
 # gem build aqueduct.gemspec
-# gem install ./aqueduct-x.x.x.gem
+# gem install ./aqueduct-x.x.x.gem --no-ri --no-rdoc --local
 #
 # gem push aqueduct-x.x.x.gem
 # gem list -r aqueduct
@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/remomueller"
   s.summary     = "Data integration gem designed to increase data flow between applications"
   s.description = "Data integration gem designed to increase data flow between applications using a common interface"
+  s.license     = 'CC BY-NC-SA 3.0'
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["aqueduct.gemspec", "CHANGELOG.md", "LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
