@@ -1,5 +1,9 @@
 ## 0.2.0
 
+### Enhancements
+- **Gem Changes**
+  - Updated to Rails 4.0.0.beta1
+
 ## 0.1.0
 
 ### Enhancements
