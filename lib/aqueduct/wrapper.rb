@@ -49,7 +49,7 @@ module Aqueduct
     end
 
     def get_all_values_for_column(table, column)
-      { values: [], error: "<span style='vertical-align:middle'><img height='13' width='13' align='absmiddle' src='#{SITE_URL}/assets/contour/cross.png' alt='warning' /></span> Unknown Wrapper: #{@source.wrapper}" }
+      { values: [], error: "Unknown Wrapper: #{@source.wrapper}" }
     end
 
     def column_values(table, column)
